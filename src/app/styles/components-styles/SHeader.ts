@@ -3,18 +3,23 @@
 import styled from "styled-components";
 import { colors, colorsFonts } from "../Variables";
 
-const SHeader = styled.header`
+export const SHeader = styled.header`
   align-items: center;
   background: linear-gradient(rgba(245, 255, 251, 1), rgba(255, 255, 255, 1));
   display: flex;
   justify-content: space-between;
   padding: 24px 162px 24px 162px;
   margin-bottom: 48px;
+`
 
-  #nav-container {
-    display: flex;
-    gap: 16px;
-  };
+export const SFigure = styled.figure`
+  width: 202.69px;
+  height: 24px;
+`;
+
+export const SNav = styled.nav`
+  display: flex;
+  gap: 16px;
 
   .nav-link {
     border-radius: 8px;
@@ -42,5 +47,4 @@ const SHeader = styled.header`
     line-height: 27px;
     text-align: center;
   };
-`
-export default SHeader;
+`;
