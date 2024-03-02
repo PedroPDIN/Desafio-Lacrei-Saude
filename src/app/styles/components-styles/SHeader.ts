@@ -4,8 +4,6 @@ import styled from "styled-components";
 import { colors, colorsFonts } from "../Variables";
 
 const SHeader = styled.header`
-  border: 1px solid green;
-
   align-items: center;
   background: linear-gradient(rgba(245, 255, 251, 1), rgba(255, 255, 255, 1));
   display: flex;
