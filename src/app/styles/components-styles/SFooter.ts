@@ -7,6 +7,8 @@ const SFooter = styled.footer`
   margin: 0px 138px 0px 138px;
   padding: 0px 24px 24px 24px;
 
+  display: none;
+
   #info-first-container-footer {
     border-bottom: 1px solid ${colors.colorBorderPrimary};
     border-top: 1px solid ${colors.colorBorderPrimary};

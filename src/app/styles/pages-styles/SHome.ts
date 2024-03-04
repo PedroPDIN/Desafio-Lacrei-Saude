@@ -8,6 +8,8 @@ export const SMain = styled.main`
   height: 491px;
   justify-content: center;
   margin: 0px 138px 64px 138px;
+
+  display: none;;
 `;
 
 export const SSection = styled.section`

@@ -14,5 +14,13 @@ export const colorsFonts = {
   colorTitleSecondary: 'rgba(45, 45, 45, 1)',
   colorWhite: '#FFFFFF',
   colorWhiteSecondary: 'rgba(255, 255, 255, 1)',
-  colorGray: 'rgba(81, 81, 81, 1)'
+  colorGray: 'rgba(81, 81, 81, 1)',
+};
+
+export const endPointsScreen = {
+  micro: '500px',
+  mobile: '600px',
+  tablet: '778px',
+  laptop: '992px',
+  large: '1200px',
 };
