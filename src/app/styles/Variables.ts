@@ -1,4 +1,4 @@
-const colors = {
+export const colors = {
   colorGreen: 'rgba(1, 135, 98, 1)',
   colorPrimary: '#FFFFFF',
   colorSecondary: '#018762',
@@ -7,7 +7,7 @@ const colors = {
   colorBorderPrimary: 'rgba(178, 223, 208, 1)',
 };
 
-const colorsFonts = {
+export const colorsFonts = {
   colorGreen: 'rgba(1, 135, 98, 1)',
   colorPrimary: '#018762',
   colorTitlePrimary: 'rgba(19, 19, 19, 1)',
@@ -15,9 +15,4 @@ const colorsFonts = {
   colorWhite: '#FFFFFF',
   colorWhiteSecondary: 'rgba(255, 255, 255, 1)',
   colorGray: 'rgba(81, 81, 81, 1)'
-};
-
-export {
-  colors,
-  colorsFonts,
 };

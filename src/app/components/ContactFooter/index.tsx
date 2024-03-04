@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { SContactFooterDiv } from '@/app/styles/components-styles/SContactFooter';
+import SContactFooterDiv from '@/app/styles/components-styles/SContactFooter';
 import logoFooter from '../../../../public/Logo Lacrei Saúde - Footer.svg';
 import contactIcons from '@/utils/contactList';
 

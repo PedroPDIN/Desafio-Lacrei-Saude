@@ -3,14 +3,14 @@
 import styled from 'styled-components';
 import { colors, colorsFonts } from '../Variables';
 
-const SMain = styled.main`
+export const SMain = styled.main`
   display: flex;
   height: 491px;
   justify-content: center;
   margin: 0px 138px 64px 138px;
 `;
 
-const SSection = styled.section`
+export const SSection = styled.section`
   margin-right: 224px;
   padding: 80px 0px 80px 0px;
 
@@ -45,7 +45,7 @@ const SSection = styled.section`
   };
 `;
 
-const SAside = styled.aside`
+export const SAside = styled.aside`
   #btn-aside {
     border-radius: 8px;
     box-shadow: 0px 5px 10px 0px ${colors.colorShadowPrimary};
@@ -72,7 +72,7 @@ const SAside = styled.aside`
   };
 `;
 
-const SFigure = styled.figure`
+export const SFigure = styled.figure`
   border-radius: 8px;
   overflow: hidden;
   position: relative;
@@ -84,10 +84,3 @@ const SFigure = styled.figure`
     width: 400.13px;
   };
 `;
-
-export {
-  SMain,
-  SSection,
-  SAside,
-  SFigure,
-};

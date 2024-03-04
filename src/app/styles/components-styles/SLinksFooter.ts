@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { colorsFonts } from '../Variables';
 
-export const SLinksFooterDiv = styled.div`
+const SLinksFooterDiv = styled.div`
   display: flex;
   height: 100%;
   justify-content: space-between;
@@ -28,3 +28,5 @@ export const SLinksFooterDiv = styled.div`
     text-decoration: none;
   };
 `;
+
+export default SLinksFooterDiv;

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import infosContents from '@/utils/InfosContents';
-import { SLinksFooterDiv } from '@/app/styles/components-styles/SLinksFooter';
+import SLinksFooterDiv from '@/app/styles/components-styles/SLinksFooter';
 
 export default function LinksFooter() {
   return (

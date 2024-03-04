@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SContactFooterDiv = styled.div`
+const SContactFooterDiv = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -31,3 +31,5 @@ export const SContactFooterDiv = styled.div`
     object-fit: cover;
   };
 `;
+
+export default SContactFooterDiv;
