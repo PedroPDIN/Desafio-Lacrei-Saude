@@ -4,6 +4,7 @@ const colors = {
   colorSecondary: '#018762',
   colorShadowPrimary: 'rgba(0, 0, 0, 0.3)',
   colorWhite: 'rgba(255, 255, 255, 1)',
+  colorBorderPrimary: 'rgba(178, 223, 208, 1)',
 };
 
 const colorsFonts = {
@@ -13,6 +14,7 @@ const colorsFonts = {
   colorTitleSecondary: 'rgba(45, 45, 45, 1)',
   colorWhite: '#FFFFFF',
   colorWhiteSecondary: 'rgba(255, 255, 255, 1)',
+  colorGray: 'rgba(81, 81, 81, 1)'
 };
 
 export {

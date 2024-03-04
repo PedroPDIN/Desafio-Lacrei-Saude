@@ -5,6 +5,7 @@ import { PropsWithChildren } from 'react';
 //seguem a mesma convenção de aceitar filhos.Isso facilita a composição de componentes 
 //e o trabalho com a hierarquia de elementos React em sua aplicação.
 import Header from './components/Header';
+import Footer from './components/Footer';
 import GlobalStyle from './styles/GlobalStyle';
 
 export function Providers({ children }: PropsWithChildren) {
@@ -13,6 +14,7 @@ export function Providers({ children }: PropsWithChildren) {
       <GlobalStyle />
       <Header />
       {children}
+      <Footer />
     </>
   );
 };

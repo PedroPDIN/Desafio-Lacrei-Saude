@@ -1,13 +1,13 @@
 'use client'
 
-import styled from "styled-components";
-import { colors, colorsFonts } from "../Variables";
+import styled from 'styled-components';
+import { colors, colorsFonts } from '../Variables';
 
 const SMain = styled.main`
   display: flex;
   height: 491px;
   justify-content: center;
-  margin: 0px 138px 0px 138px;
+  margin: 0px 138px 64px 138px;
 `;
 
 const SSection = styled.section`
@@ -82,7 +82,7 @@ const SFigure = styled.figure`
     object-fit: cover;
     position: relative;
     width: 400.13px;
-  }
+  };
 `;
 
 export {
