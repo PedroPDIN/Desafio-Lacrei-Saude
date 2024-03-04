@@ -10,7 +10,7 @@ export const SHeader = styled.header`
   justify-content: space-between;
   padding: 24px 162px 24px 162px;
   margin-bottom: 48px;
-`
+`;
 
 export const SFigure = styled.figure`
   width: 202.69px;
