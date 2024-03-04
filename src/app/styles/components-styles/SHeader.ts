@@ -63,7 +63,6 @@ export const SHeader = styled.header`
 
   @media screen and (max-width: ${endPointsScreen.micro}) {
     padding: 24px 10px 24px 10px;
-    border: 1px solid red;
 
     nav {
       display: none;

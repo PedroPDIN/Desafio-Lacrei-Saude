@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import { SMain, SSection, SFigure, SAside } from './styles/pages-styles/SHome';
+import { SMain } from './styles/pages-styles/SHome';
 import imageFigure from '../../public/Imagem 2I.svg';
 
 export default function Home() {
   return (
     <SMain>
-      <SSection>
+      <section>
         <div id='titles-container'>
           <h1>Junte-se à <br /> nossa comunidade</h1>
           <div id='divider-content'></div>
@@ -14,20 +14,20 @@ export default function Home() {
           </p>
         </div>
    
-        <SAside>
+        <aside>
           <button id='btn-aside' type='button'>Buscar atendimento</button>
           <button id='btn-aside' type='button'>Oferecer atendimento</button>
-        </SAside>
-      </SSection>
+        </aside>
+      </section>
 
-      <SFigure id='image-container'>
+      <figure>
         <Image
           className='image-content'
           src={imageFigure}
           alt='imagem que retrata uma medica atendendo uma paciente.'
           width={400}
         />
-      </SFigure>
+      </figure>
     </SMain>
   );
 };
