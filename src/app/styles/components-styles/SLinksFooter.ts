@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colorsFonts } from '../Variables';
+import { colorsFonts, endPointsScreen } from '../Variables';
 
 const SLinksFooterDiv = styled.div`
   display: flex;
@@ -26,6 +26,32 @@ const SLinksFooterDiv = styled.div`
     margin-bottom: 16px;
     line-height: 24px;
     text-decoration: none;
+  };
+
+  @media screen and (min-width: ${endPointsScreen.micro}) and ((max-width: ${endPointsScreen.mobile})) {
+    height: auto;
+    gap: 20px;
+
+    .title-link {
+      line-height: 20px;
+    };
+  };
+
+  @media screen and (max-width: ${endPointsScreen.micro}) {
+    flex-direction: column;
+    height: auto;
+
+    #link-content {
+      margin-bottom: 24px;
+    };
+
+    #link-content h2 {
+      margin-bottom: 14px;
+    };
+
+    .title-link {
+      margin-bottom: 8px;
+    };
   };
 `;
 

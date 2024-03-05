@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { endPointsScreen } from '../Variables';
 
 const SContactFooterDiv = styled.div`
   display: flex;
@@ -29,6 +30,10 @@ const SContactFooterDiv = styled.div`
 
   .icon-content-footer {
     object-fit: cover;
+  };
+
+  @media screen and (max-width: ${endPointsScreen.micro}) {
+    width: 100%;
   };
 `;
 
