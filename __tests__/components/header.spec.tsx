@@ -21,6 +21,7 @@ describe('Header component', () => {
     expect(figureElement).toBeInTheDocument();
     expect(figureElement.tagName).toEqual('FIGURE');
     expect(logoElement).toBeInTheDocument();
+    expect(logoElement.tagName).toEqual('IMG');
   });
 
   it('Render the navbar and screen proportionally larger', () => {
