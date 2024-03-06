@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lacrei Saúde
 
-## Getting Started
+Bem-vindo ao projeto Lacrei Saúde! Este é um projeto prático desenvolvido para encontrar atendimento clínico de qualidade ou ingressar na equipe de profissionais da Lacrei Saúde.
 
-First, run the development server:
+## Instalação 👩‍⚕️👨‍⚕️
 
+*Certifique-se de ter o [Node.js](https://nodejs.org/en) e o Yarn instalados em sua máquina antes de prosseguir.*
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone git@github.com:PedroPDIN/Desafio-Lacrei-Saude.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Acesse o diretório do projeto:
+```bash
+cd Desafio-Lacrei-Saude
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3.Instale as dependências usando npm ou yarn:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+com *npm*:
+```bash
+npm install
+```
 
-## Learn More
+ou com *Yarn*:
+```bash
+yarn install
+```
+## Ferramentas Utilizadas 🛠️
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto foi desenvolvido utilizando as seguintes ferramentas:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* [Next.js](https://nextjs.org/docs)
+* [Styled Components](https://styled-components.com/docs)
+* [Jest](https://jestjs.io/pt-BR/docs/getting-started)
+* [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+* [TypeScript](https://www.typescriptlang.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Executando o Projeto 🔥
 
-## Deploy on Vercel
+Para rodar o projeto em modo de desenvolvimento, utilize o seguinte comando:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+com *npm*
+```bash
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ou com *npm*
+```bash
+yarn dev
+```
+Isso iniciará o servidor de desenvolvimento Next.js e você poderá acessar o aplicativo em http://localhost:3000.
+
+*Caso queira rodar o projeto em modo de produção, basta utilizar o seguinte comando:*
+
+1. Primeiro rodar o comando de *build*:
+
+```bash
+npm run build
+```
+
+ou através do *yarn*.
+
+```bash
+yarn build
+```
+
+2. E logos após executar o seguinte comando:
+
+```bash
+npm run start
+```
+
+ou através do *yarn*.
+
+```bash
+yarn start
+```
+## Testes ❗
+
+Nesse projeto foi abordados o conceito de teste unitários. Para executar todos os testes , utilize o seguinte comando:
+
+```bash
+npm run test
+```
+ou através do *yarn*.
+```bash
+yarn test
+```
+
+*Caso queira executar um teste em um arquivo de teste especifico basta executar o comando de teste (citado acima), incluindo o nome do arquivo de teste.*
+
+*exemplo:*
+
+```bash
+npm run test header.spec.tsx
+```
+
+🏁🏁 Espero que este guia seja útil para instalar, executar e contribuir para o projeto "Desafio Lacrei Saúde". Caso tenha alguma dúvida ou problema, não hesite em entrar em contato.
