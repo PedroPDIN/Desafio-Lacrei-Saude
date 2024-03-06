@@ -13,8 +13,8 @@ interface Props {
 
 export default function Header({ isOpenMenu, setIsOpenMenu }: Props) {
   return (
-    <SHeader>
-      <figure>
+    <SHeader data-testid='header-element'>
+      <figure data-testid='figure-element'>
         <Image
           id="logo"
           src={logo}
@@ -22,20 +22,22 @@ export default function Header({ isOpenMenu, setIsOpenMenu }: Props) {
         />
       </figure>
 
-      <div id='icons-menu-header'>
+      <div id='icons-menu-header' data-testid='icon-menu-element'>
         {isOpenMenu
           ? <IoClose
             className='icon-close-header'
+            data-testid='icon-menu-element-open'
             onClick={() => setIsOpenMenu(!isOpenMenu)}
           />
           : <MdMenu
-          className='icon-menu-header'
-          onClick={() => setIsOpenMenu(!isOpenMenu)}
+            className='icon-menu-header'
+            data-testid='icon-menu-element-close'
+            onClick={() => setIsOpenMenu(!isOpenMenu)}
           />
         }
       </div>
       
-      <nav>
+      <nav data-testid='nav-element'>
         <NavBar />
       </nav>
     </SHeader>

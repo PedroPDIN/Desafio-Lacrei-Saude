@@ -11,7 +11,6 @@ import GlobalStyle from './styles/GlobalStyle';
 
 export function Providers({ children }: PropsWithChildren) {
   const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
-  console.log(isOpenMenu);
 
   return (
     <>
