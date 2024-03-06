@@ -7,7 +7,7 @@ import contactIcons from '@/utils/contactList';
 export default function ContactFooter() {
   return (
     <SContactFooterDiv>
-      <figure>
+      <figure data-testid='figure-logo-footer'>
         <Image
           id='logo-footer'
           src={logoFooter}
@@ -15,13 +15,18 @@ export default function ContactFooter() {
         />
       </figure>
 
-      <nav>
+      <nav data-testid='nav-links-footer'>
         {contactIcons.map((item) => (
           <Link key={item.name} href="8" id='contact-icon-footer'>
-            <Image src={item.icon} alt={ item.alt } className='icon-content-footer'/>
+            <Image
+              src={item.icon}
+              alt={item.alt}
+              className='icon-content-footer'
+              data-testid='icons-links-footer'
+            />
           </Link>
         ))}
       </nav>
     </SContactFooterDiv>
-  )
+  );
 };
