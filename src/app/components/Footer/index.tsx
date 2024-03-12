@@ -33,7 +33,7 @@ export default function Footer() {
       >
         <div  className='info-content-footer'>
           <p data-testid='text-content-footer-second'>A Lacrei não oferece tratamento médico emergencial. Em caso de emergência procure o hospital mais próximo.</p>
-          <p data-testid='text-content-footer-second'>Em caso de problemas psicológicos, ligue para 188 (CVV) ou acesse o site <a href="*">www.cvv.org.br</a></p>
+          <p data-testid='text-content-footer-second'>Em caso de problemas psicológicos, ligue para 188 (CVV) ou acesse o site <a href="www.cvv.org.br">www.cvv.org.br</a></p>
           <p data-testid='text-content-footer-second'>Copyright © 2021 Lacrei. Todos os direitos reservados. CNPJ: 51.265.351/0001-65</p>
         </div>
 
