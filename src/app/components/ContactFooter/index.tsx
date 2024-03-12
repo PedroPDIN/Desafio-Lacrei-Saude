@@ -17,7 +17,7 @@ export default function ContactFooter() {
 
       <nav data-testid='nav-links-footer'>
         {contactIcons.map((item) => (
-          <Link key={item.name} href="8" id='contact-icon-footer'>
+          <Link key={item.name} href="/" id='contact-icon-footer'>
             <Image
               src={item.icon}
               alt={item.alt}
