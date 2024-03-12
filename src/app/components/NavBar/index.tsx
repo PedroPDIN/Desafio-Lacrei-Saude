@@ -5,14 +5,14 @@ export default function NavBar() {
   return (
     <SNavBarDiv>
       <Link
-        href='*'
+        href='/'
         className='nav-link'
         data-testid='nav-link'
       >
         Quem somos
       </Link>
       <Link
-        href='*'
+        href='/'
         className='nav-link'
         data-testid='nav-link'
       >
