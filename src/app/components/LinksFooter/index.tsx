@@ -11,7 +11,7 @@ export default function LinksFooter() {
         {infosContents.first.map((item) => (
           <Link
             key={item}
-            href='*'
+            href='/'
             className='title-link'
             data-testid="links-content-first"
           >
@@ -26,7 +26,7 @@ export default function LinksFooter() {
         {infosContents.second.map((item) => (
           <Link
             key={item}
-            href='*'
+            href='/'
             className='title-link'
             data-testid="links-content-second"
           >
@@ -41,7 +41,7 @@ export default function LinksFooter() {
         {infosContents.third.map((item) => (
           <Link
             key={item}
-            href='*'
+            href='/'
             className='title-link'
             data-testid="links-content-third"
           >
